@@ -1,5 +1,5 @@
 
-//swapping two numbers
+//swapping two numbers with temporary variable
 
 #include<stdio.h>
 int main()
