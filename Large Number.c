@@ -1,5 +1,5 @@
 
-// 2
+// Program to find the largest number between two numbers
 
 #include<stdio.h>
 int main()
