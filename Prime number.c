@@ -20,7 +20,7 @@ int main()
     }
 
     if(count==0)
-        printf("Number are Prime number");
+        printf(" Prime number");
     else
         printf("Not a Prime number");
 
