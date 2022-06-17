@@ -1,6 +1,6 @@
 
 
-// Series :- 1 + 2 + 3 + ....... +N =?
+// Series :- 1 + 2 + 3 + ....... +N =?    (using for loop)
 
 #include<stdio.h>
 int main()
