@@ -6,8 +6,8 @@
     -----------
     N1=3
       1
-     123
-    12345
+     1 2
+    1 2 3
 */
 
 #include<stdio.h>
@@ -26,9 +26,9 @@ int main()
             printf(" ");
         }
 
-        for(col1=1; col1<=2*row1-1; col1++)
+        for(col1=1; col1<=row1; col1++)
         {
-            printf("%d",col1);
+            printf("%d ",col1);
         }
         printf("\n");
     }
@@ -39,8 +39,8 @@ int main()
     ------------
     N2=3
       1
-     222
-    33333
+     2 2
+    3 3 3
 */
     int n2,row2,col2;
 
@@ -55,9 +55,9 @@ int main()
             printf(" ");
         }
 
-        for(col2=1; col2<=2*row2-1; col2++)
+        for(col2=1; col2<=row2; col2++)
         {
-            printf("%d",row2);
+            printf("%d ",row2);
         }
         printf("\n");
     }
@@ -69,8 +69,8 @@ int main()
     -----------
     N3=3
       1
-     101
-    10101
+     1 0
+    1 0 1
 */
 
     int n3,row3,col3;
@@ -85,9 +85,9 @@ int main()
             printf(" ");
         }
 
-        for(col3=1; col3<=2*row3-1; col3++)
+        for(col3=1; col3<=row3; col3++)
         {
-            printf("%d",col3%2);
+            printf("%d ",col3%2);
         }
         printf("\n");
     }
@@ -98,8 +98,8 @@ int main()
     ------------
     N4=3
       1
-     000
-    11111
+     0 0
+    1 1 1
 */
     int n4,row4,col4;
 
@@ -114,9 +114,9 @@ int main()
             printf(" ");
         }
 
-        for(col4=1; col4<=2*row4-1; col4++)
+        for(col4=1; col4<=row4; col4++)
         {
-            printf("%d",row4%2);
+            printf("%d ",row4%2);
         }
         printf("\n");
     }
@@ -129,8 +129,8 @@ int main()
     -----------
     N5=3
       A
-     ABC
-    ABCDE
+     A B
+    A B C
 */
 
     int n5,row5,col5;
@@ -146,9 +146,9 @@ int main()
             printf(" ");
         }
 
-        for(col5=1; col5<=2*row5-1; col5++)
+        for(col5=1; col5<=row5; col5++)
         {
-            printf("%c",col5+64);
+            printf("%c ",col5+64);
         }
         printf("\n");
     }
@@ -159,8 +159,8 @@ int main()
     ------------
     N6=3
       A
-     BBB
-    CCCCC
+     B B
+    C C C
 */
     int n6,row6,col6;
 
@@ -175,9 +175,9 @@ int main()
             printf(" ");
         }
 
-        for(col6=1; col6<=2*row6-1; col6++)
+        for(col6=1; col6<=row6; col6++)
         {
-            printf("%c",row6+64);
+            printf("%c ",row6+64);
         }
         printf("\n");
     }
@@ -188,8 +188,8 @@ int main()
     -----------
     N7=3
       a
-     abc
-    abcde
+     a b
+    a b c
 */
 
     int n7,row7,col7;
@@ -205,9 +205,9 @@ int main()
             printf(" ");
         }
 
-        for(col7=1; col7<=2*row7-1; col7++)
+        for(col7=1; col7<=row7; col7++)
         {
-            printf("%c",col7+96);
+            printf("%c ",col7+96);
         }
         printf("\n");
     }
@@ -218,8 +218,8 @@ int main()
     ------------
     N8=3
       a
-     bbb
-    ccccc
+     b b
+    c c c
 */
     int n8,row8,col8;
 
@@ -234,9 +234,9 @@ int main()
             printf(" ");
         }
 
-        for(col8=1; col8<=2*row8-1; col8++)
+        for(col8=1; col8<=row8; col8++)
         {
-            printf("%c",row8+96);
+            printf("%c ",row8+96);
         }
         printf("\n");
     }
@@ -248,8 +248,8 @@ int main()
     -----------
     N9=3
       *
-     ***
-    *****
+     * *
+    * * *
 */
 
     int n9,row9,col9;
@@ -265,9 +265,9 @@ int main()
             printf(" ");
         }
 
-        for(col9=1; col9<=2*row9-1; col9++)
+        for(col9=1; col9<=row9; col9++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
@@ -278,8 +278,8 @@ int main()
     ------------
     N10=3
       #
-     ###
-    #####
+     # #
+    # # #
 */
     int n10,row10,col10;
 
@@ -294,9 +294,9 @@ int main()
             printf(" ");
         }
 
-        for(col10=1; col10<=2*row10-1; col10++)
+        for(col10=1; col10<=row10; col10++)
         {
-            printf("#");
+            printf("# ");
         }
         printf("\n");
     }
