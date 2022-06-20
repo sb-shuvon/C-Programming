@@ -455,7 +455,7 @@ int main()
         printf("\n");
     }
 
-    for(row10=n10-1; row10>=1; row10--)
+    for(row10=n10-1`1; row10>=1; row10--)
     {
 
         for(col10=1; col10<=n10-row10; col10++)
