@@ -3,6 +3,7 @@
     Array Declaration
     Array initialization
     Array Printing
+    Getting input from user
 */
 
 #include<stdio.h>
