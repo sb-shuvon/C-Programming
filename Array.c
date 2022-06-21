@@ -22,5 +22,7 @@ int main()
     printf("Marks[4]=%d\n",marks[4]);
 
 
+
+
     getch();
 }
