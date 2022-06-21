@@ -1,5 +1,5 @@
 
-//Write a program that can take some numbers and display minimum
+//Write a program that can take some numbers and display Minimum
 
 #include<stdio.h>
 int main()
