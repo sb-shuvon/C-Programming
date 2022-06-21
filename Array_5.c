@@ -3,7 +3,7 @@
     Array Declaration
     Array initialization
     Array Printing
-    Getting input from user by loop
+    Getting input & output from user by loop
 */
 
 //Write a program that 10 numbers and  display their sum and avarage
